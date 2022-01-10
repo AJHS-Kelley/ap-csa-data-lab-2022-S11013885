@@ -1,4 +1,4 @@
-// Amari Lombel, 1/10/22, AP Data Labs 2022 v0.2
+// Amari Lombel, 1/10/22, AP Data Labs 2022 v0.3
 
 public class cereal
 {
@@ -16,6 +16,16 @@ public class cereal
     cups = cups;
     FPC = fiberPerCups;
 
+
+
+    }
+
+    public Cereal()
+    {
+        cerealName = "";
+        fiber = 0.0;
+        cups = 0.0;
+        FPC = 0.0
 
 
     }
