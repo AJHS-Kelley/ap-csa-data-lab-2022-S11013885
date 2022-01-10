@@ -11,10 +11,10 @@ public class cereal
     public Cereal( String cerealName , double fiber, double cups, double fiberPerCups)
 
     {
-        name = cerealName;
-        fiber = fiber;
-        cups = cups;
-        FPC = fiberPerCups;
+    name = cerealName;
+    fiber = fiber;
+    cups = cups;
+    FPC = fiberPerCups;
 
 
 
