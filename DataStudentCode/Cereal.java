@@ -1,4 +1,4 @@
-// Amari Lombel, 1/10/22, AP Data Labs 2022 v0.3
+// Amari Lombel, 1/10/22, AP Data Labs 2022 v0.4
 
 public class cereal
 {
@@ -29,7 +29,21 @@ public class cereal
 
 
     }
-
+    // Getters
+    public String getName()
+    {
+        return name;
+    }
+    public double getFiber()
+    {
+        return fiber;
+    }public double  getCups()
+    {
+        return cups;
+    }public double getFPC()
+    {
+        return FPC;
+    }
 
 
 
