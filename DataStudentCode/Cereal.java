@@ -12,7 +12,7 @@ public class Cereal
 
     {
     Name = cerealName;
-    fiber = fiber;
+    fiber0 = fiber;
     cups = cups;
     FPC = fiberPerCups;
 
@@ -23,7 +23,7 @@ public class Cereal
     public Cereal()
     {
         Name = "";
-        fiber = 0.0;
+        fiber0 = 0.0;
         cups = 0.0;
         FPC = 0.0;
 
