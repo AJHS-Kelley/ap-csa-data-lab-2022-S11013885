@@ -1,4 +1,4 @@
-// Amari Lombel, 1/10/22, AP Data Labs 2022 v0.4
+// Amari Lombel, 1/10/22, AP Data Labs 2022 v0.5
 
 public class cereal
 {
@@ -45,6 +45,16 @@ public class cereal
         return FPC;
     }
 
+// toString method 
+public String toString()
+{
+    return "cereal: " + name + "fibercontent: " + fiber + "serving size (in cups): " + cups +"fiber per cup: " + FPC;
+
+
+
+
+
+} 
 
 
 }
