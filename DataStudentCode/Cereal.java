@@ -1,6 +1,6 @@
-// Amari Lombel, 1/10/22, AP Data Labs 2022 v0.5
+// Amari Lombel, 1/10/22, AP Data Labs 2022 v0.5.5
 
-public class cereal
+public class Cereal
 {
 
     private String Name;
@@ -11,7 +11,7 @@ public class cereal
     public Cereal( String cerealName , double fiber, double cups, double fiberPerCups)
 
     {
-    name = cerealName;
+    Name = cerealName;
     fiber = fiber;
     cups = cups;
     FPC = fiberPerCups;
@@ -22,17 +22,17 @@ public class cereal
 
     public Cereal()
     {
-        cerealName = "";
+        Name = "";
         fiber = 0.0;
         cups = 0.0;
-        FPC = 0.0
+        FPC = 0.0;
 
 
     }
     // Getters
     public String getName()
     {
-        return name;
+        return Name;
     }
     public double getFiber()
     {
@@ -48,17 +48,28 @@ public class cereal
 // toString method 
 public String toString()
 {
-    return "cereal: " + name + "\nfibercontent: " + fiber + "\nserving size (in cups): " + cups +"\nfiber per cup: " + FPC;
+    return "cereal: " + Name + "\nfibercontent: " + fiber + "\nserving size (in cups): " + cups +"\nfiber per cup: " + FPC;
 
 }
 
 public static void main(String[]args)
 { 
- Cereal food1 = new Cereal();
-  System.out.println(food1.toString());
+    Cereal food1 = new Cereal();
+    System.out.println(food1.toString());
+    
+    Cereal food2 = new Cereal("cap'n crunch", 0.0, 0.75, 0.0);
+    System.out.println(food2.toString());
 
- 
 }
+
+
+    
+
+
+
+
+
+
 
 
 }
