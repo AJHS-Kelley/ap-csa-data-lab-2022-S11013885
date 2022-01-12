@@ -3,10 +3,10 @@
 public class cereal
 {
 
-    private String cerealName;
+    private String Name;
     private double cups;
     private double fiber;
-    private double fiberPerCups;
+    private double FPC;
 
     public Cereal( String cerealName , double fiber, double cups, double fiberPerCups)
 
@@ -48,13 +48,17 @@ public class cereal
 // toString method 
 public String toString()
 {
-    return "cereal: " + name + "fibercontent: " + fiber + "serving size (in cups): " + cups +"fiber per cup: " + FPC;
+    return "cereal: " + name + "\nfibercontent: " + fiber + "\nserving size (in cups): " + cups +"\nfiber per cup: " + FPC;
 
+}
 
+public static void main(String[]args)
+{ 
+ Cereal food1 = new Cereal();
+  System.out.println(food1.toString());
 
-
-
-} 
+ 
+}
 
 
 }
